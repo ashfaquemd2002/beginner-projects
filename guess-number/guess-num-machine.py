@@ -17,4 +17,5 @@ def guess_num_mach(upper_limit):
 
 
 upper_limit = int(input('Enter the upper limit: '))
+x = input(f'Think of a number between 1 and {upper_limit} and press enter when ready..')
 guess_num_mach(upper_limit)
